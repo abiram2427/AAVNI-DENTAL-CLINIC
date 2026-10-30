@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AAVNI Dental Clinic | Lingampally, Hyderabad</title>
+<meta name="description" content="Gentle, affordable dental care in Lingampally, Hyderabad. Root canals, implants, braces, kids’ dentistry and more with Dr. Sravanthi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3faf8;--surface:#fff;--ink:#0d3a42;--muted:#4b6a70;--line:#cfe5e0;--mint:#bfe8dc;--teal:#0f6b73;--cta:#ff6f61;--ctaink:#2a0b07;--deep:#0d3a42;--deepink:#eaf6f4;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a1d21;--surface:#112a2f;--ink:#e8f5f2;--muted:#9bbdb8;--line:#1f4147;--mint:#1c4a4d;--teal:#6fd3cb;--deep:#071417;}}
+:root[data-theme="dark"]{--bg:#0a1d21;--surface:#112a2f;--ink:#e8f5f2;--muted:#9bbdb8;--line:#1f4147;--mint:#1c4a4d;--teal:#6fd3cb;--deep:#071417}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 "DM Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","DM Sans",system-ui,sans-serif;line-height:1.08;margin:0;letter-spacing:-.02em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--cta);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:62px;gap:12px}
+.logo{font:800 20px "Bricolage Grotesque",sans-serif;text-decoration:none;display:flex;align-items:center;gap:8px}
+nav{display:flex;gap:20px;font-size:15px;font-weight:500}
+nav a{text-decoration:none;color:var(--muted)}nav a:hover{color:var(--ink)}
+.btn{display:inline-block;background:var(--cta);color:var(--ctaink);font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;border:0;font-size:16px}
+.btn.alt{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+.btn:hover{filter:brightness(1.06)}
+.hero{padding:56px 0 40px;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}
+.hero h1{font-size:clamp(42px,7vw,84px);font-weight:800}
+.hero h1 span{display:block;color:var(--teal)}
+.hero p{max-width:46ch;color:var(--muted);font-size:19px;margin:20px 0 28px}
+.cta-row{display:flex;gap:12px;flex-wrap:wrap}
+.tooth{width:100%;max-width:340px;margin:auto;animation:float 6s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-12px) rotate(2deg)}}
+@media (prefers-reduced-motion:reduce){.tooth{animation:none}}
+.facts{background:var(--deep);color:var(--deepink)}
+.facts .wrap{display:flex;flex-wrap:wrap;gap:12px 40px;padding:18px 22px;justify-content:space-between;font-weight:500}
+.facts b{color:var(--mint)}
+section{padding:72px 0}
+h2{font-size:clamp(30px,4.5vw,48px);font-weight:800;margin-bottom:12px}
+.lead{color:var(--muted);max-width:56ch;margin:0 0 36px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.svc{background:var(--surface);border:1px solid var(--line);border-radius:22px 22px 22px 6px;padding:24px}
+.svc:nth-child(even){border-radius:22px 22px 6px 22px}
+.svc .ic{font-size:30px;display:block;margin-bottom:10px}
+.svc h3{font-size:22px;margin-bottom:6px}
+.svc p{margin:0;color:var(--muted);font-size:15.5px}
+.about{background:var(--mint)}
+.about .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;align-items:center}
+.portrait{aspect-ratio:1/1.1;border-radius:200px 200px 24px 24px;background:var(--deep);color:var(--deepink);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px}
+.portrait .big{font-size:64px}
+.portrait small{color:var(--mint);font-size:15px}
+.about p{margin:0 0 14px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.tags span{background:var(--surface);border-radius:999px;padding:6px 14px;font-size:14.5px;font-weight:500}
+.score{display:flex;align-items:baseline;gap:14px;margin-bottom:28px;flex-wrap:wrap}
+.score strong{font:800 72px "Bricolage Grotesque",sans-serif;line-height:1}
+.stars{color:#f5a524;font-size:24px;letter-spacing:2px}
+.quotes{columns:3 260px;column-gap:16px}
+.q{break-inside:avoid;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:20px;margin:0 0 16px}
+.q p{margin:0 0 10px;font-size:16px}
+.q cite{font-style:normal;font-weight:700;font-size:14.5px;color:var(--teal)}
+.q cite small{color:var(--muted);font-weight:400}
+.visit{background:var(--deep);color:var(--deepink)}
+.visit h2{color:var(--deepink)}
+.visit .wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.visit dl{margin:0;display:grid;gap:18px}
+.visit dt{font-weight:700;color:var(--mint)}
+.visit dd{margin:2px 0 0}
+.visit a{text-underline-offset:3px}
+.card{background:var(--surface);color:var(--ink);border-radius:24px;padding:28px}
+.card h3{font-size:26px;margin-bottom:8px}
+.card p{color:var(--muted);margin:0 0 18px}
+.card .btn{display:block;text-align:center;margin-top:10px}
+footer{padding:26px 0;text-align:center;color:var(--muted);font-size:14px}
+@media (max-width:760px){nav{display:none}.hero .wrap,.about .wrap,.visit .wrap{grid-template-columns:1fr}.tooth{max-width:200px;order:-1;margin:0}section{padding:52px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="logo" href="#top"><span aria-hidden="true">🦷</span>AAVNI Dental</a>
+<nav><a href="#care">Treatments</a><a href="#doctor">Doctor</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
+<a class="btn" href="tel:+919493406092">Call now</a>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+<div>
+<h1>Dentistry that doesn’t hurt<span>and doesn’t cost a fortune.</span></h1>
+<p>Patient, painless dental care for the whole family in Lingampally, Hyderabad. Dr. Sravanthi explains every step before she starts.</p>
+<div class="cta-row">
+<a class="btn" href="https://wa.me/919493406092?text=Hello%20AAVNI%20Dental%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment." >Book on WhatsApp</a>
+<a class="btn alt" href="#care">See treatments</a>
+</div>
+</div>
+<svg class="tooth" viewBox="0 0 200 220" role="img" aria-label="Smiling tooth illustration">
+<path d="M100 14c-22-16-62-10-72 24-8 28 8 48 14 74 5 26 6 78 22 78 14 0 12-48 36-48s22 48 36 48c16 0 17-52 22-78 6-26 22-46 14-74-10-34-50-40-72-24z" fill="#fff" stroke="#0f6b73" stroke-width="7" stroke-linejoin="round"/>
+<path d="M62 52c8-10 22-12 30-8" stroke="#bfe8dc" stroke-width="9" stroke-linecap="round" fill="none"/>
+<circle cx="78" cy="86" r="6" fill="#0d3a42"/><circle cx="122" cy="86" r="6" fill="#0d3a42"/>
+<path d="M82 108c10 12 26 12 36 0" stroke="#0d3a42" stroke-width="6" stroke-linecap="round" fill="none"/>
+<circle cx="64" cy="104" r="8" fill="#ff6f61" opacity=".4"/><circle cx="136" cy="104" r="8" fill="#ff6f61" opacity=".4"/>
+</svg>
+</div></div>
+
+<div class="facts"><div class="wrap">
+<span><b>5.0</b> rating from 98 Google reviews</span>
+<span>Open daily, closes <b>8:30 pm</b></span>
+<span>Right beside <b>ICICI Bank</b>, HUDA Trade Center</span>
+</div></div>
+
+<section id="care"><div class="wrap">
+<h2>Care for every smile</h2>
+<p class="lead">From a routine clean to a full implant, treatment is explained in plain words, including what it involves and what it costs.</p>
+<div class="services">
+<div class="svc"><span class="ic">🛡️</span><h3>Root canal treatment</h3><p>Smooth, quick and pain-free, with a cap fitted so your tooth looks natural again.</p></div>
+<div class="svc"><span class="ic">✨</span><h3>Cleaning and fillings</h3><p>Gentle scaling, cavity fillings and brushing guidance to keep problems from returning.</p></div>
+<div class="svc"><span class="ic">🔩</span><h3>Implants and bridges</h3><p>Replace missing teeth with options that are talked through honestly before you decide.</p></div>
+<div class="svc"><span class="ic">😁</span><h3>Braces</h3><p>Straighter teeth at fair prices, with friendly check-ups along the way.</p></div>
+<div class="svc"><span class="ic">🦷</span><h3>Wisdom tooth removal</h3><p>Calm, careful extractions for adults and teens, with plenty of reassurance.</p></div>
+<div class="svc"><span class="ic">🧸</span><h3>Kids’ dentistry</h3><p>Patient cavity treatment that children are comfortable with, even four-year-olds.</p></div>
+</div>
+</div></section>
+
+<section class="about" id="doctor"><div class="wrap">
+<div class="portrait"><span class="big">👩‍⚕️</span><h3>Dr. Sravanthi</h3><small>Dentist and clinic founder</small></div>
+<div>
+<h2>She listens first.</h2>
+<p>Patients say the same things again and again: Dr. Sravanthi listens to the problem, explains each step, and suggests only the treatment you need. No unnecessary scans, no pressure.</p>
+<p>Many families here have made her their family dentist. She even calls after treatment to check how you’re feeling.</p>
+<div class="tags"><span>Anxious patient friendly</span><span>Honest advice</span><span>Affordable pricing</span><span>Hygienic clinic</span><span>Follow-up calls</span></div>
+</div>
+</div></section>
+
+<section id="reviews"><div class="wrap">
+<div class="score"><strong>5.0</strong><div><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><div>98 reviews on Google Maps</div></div></div>
+<h2>What our patients say</h2>
+<p class="lead">Real words from real Google reviews.</p>
+<div class="quotes">
+<blockquote class="q"><p>I was really anxious about my dental treatment, but Dr. Sravanthi made it so comfortable and completely pain-free.</p><cite>Syed Abdul Mueen <small>· 5 months ago</small></cite></blockquote>
+<blockquote class="q"><p>Doesn’t ask for unnecessary scans or treatments. Genuine. My 4 year old baby got treated for her cavities and likes her a lot.</p><cite>sruthi keerthy <small>· a year ago</small></cite></blockquote>
+<blockquote class="q"><p>I recently had a root canal treatment here, and the entire process was smooth, quick and completely pain-free.</p><cite>Venkatreddy K <small>· 3 months ago</small></cite></blockquote>
+<blockquote class="q"><p>Good quality treatment for low prices. The doctor was very cooperative and humble.</p><cite>Rajesh Chennu <small>· a year ago</small></cite></blockquote>
+<blockquote class="q"><p>The doctor is very soft, treats patients with patience and also follows up by calling to know how we are feeling.</p><cite>Siri Sha <small>· 3 months ago</small></cite></blockquote>
+<blockquote class="q"><p>We went for my daughter’s wisdom tooth extraction. The doctor made her feel at ease and comfortable.</p><cite>Sharika’s <small>· a month ago</small></cite></blockquote>
+<blockquote class="q"><p>Dr. Sravanthi is our family doctor. The procedure was quick, smooth, and painless. Highly recommended.</p><cite>saru saroja <small>· 7 months ago</small></cite></blockquote>
+<blockquote class="q"><p>The clinic is modern, clean, and equipped with the latest technology. She explained every procedure in detail.</p><cite>Sai Swaraj <small>· 2 years ago</small></cite></blockquote>
+</div>
+<p style="margin-top:20px"><a href="https://maps.app.goo.gl/b4J3VPksMtG92NnS7" rel="noopener">Read all reviews on Google Maps</a></p>
+</div></section>
+
+<section class="visit" id="visit"><div class="wrap">
+<div>
+<h2>Come in and say hello</h2>
+<dl>
+<div><dt>Address</dt><dd>HUDA Trade Center, beside ICICI Bank, Tara Nagar, Lingampally, Serilingampalle (M), Telangana 500019</dd></div>
+<div><dt>Hours</dt><dd>Open today, closes 8:30 pm</dd></div>
+<div><dt>Phone</dt><dd><a href="tel:+919493406092">094934 06092</a></dd></div>
+<div><dt>Good to know</dt><dd>Appointments recommended. Restroom available. Pay with NFC mobile payments.</dd></div>
+</dl>
+</div>
+<div class="card">
+<h3>Book your visit</h3>
+<p>Tell us what’s bothering you and we’ll find a time that suits you.</p>
+<a class="btn" href="https://wa.me/919493406092?text=Hello%20AAVNI%20Dental%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment.">Message on WhatsApp</a>
+<a class="btn alt" href="tel:+919493406092">Call 094934 06092</a>
+<a class="btn alt" href="https://maps.app.goo.gl/b4J3VPksMtG92NnS7" rel="noopener">Get directions</a>
+</div>
+</div></section>
+</main>
+<footer><div class="wrap">© AAVNI Dental Clinic · Lingampally, Hyderabad</div></footer>
+</body>
+</html>
